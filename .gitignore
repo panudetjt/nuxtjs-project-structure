@@ -85,3 +85,10 @@ sw.*
 
 # storybook cache
 .storybook
+
+# ssl certificate
+*.crt
+*.key
+
+# assets that should not store in version control tool
+_assets
