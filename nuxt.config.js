@@ -15,11 +15,6 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      {
-        rel: 'stylesheet',
-        type: 'text/css',
-        href: '/tachyons/css/tachyons.css',
-      },
     ],
   },
 
@@ -31,7 +26,7 @@ module.exports = {
   /*
    ** Global CSS
    */
-  // css: ['tachyons/css/tachyons.css'],
+  css: ['tachyons/css/tachyons.min.css'],
 
   /*
    ** Plugins to load before mounting the App
@@ -47,6 +42,7 @@ module.exports = {
    ** Build configuration
    */
   build: {
+    extractCSS: true,
     /*
      ** You can extend webpack config here
      */

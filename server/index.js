@@ -1,5 +1,6 @@
 const { Nuxt, Builder } = require('nuxt')
 const fastify = require('fastify')({
+  http2: true,
   logger: true,
 })
 

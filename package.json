@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "My grand Nuxt.js project",
   "author": "Panudet Tammawongsa",
-  "engines" : { "node" : ">=10.15.3" },
+  "engines": {
+    "node": ">=10.15.3"
+  },
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
@@ -12,7 +14,9 @@
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
-    "test": "ava"
+    "test": "ava",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@nuxtjs/pwa": "^2.6.0",
@@ -47,6 +51,12 @@
     "prettier": "^1.16.4",
     "require-extension-hooks": "^0.3.3",
     "require-extension-hooks-babel": "^1.0.0",
-    "require-extension-hooks-vue": "^3.0.0"
+    "require-extension-hooks-vue": "^3.0.0",
+    "@storybook/vue": "^5.0.11",
+    "@storybook/addon-actions": "^5.0.11",
+    "@storybook/addon-links": "^5.0.11",
+    "@storybook/addons": "^5.0.11",
+    "babel-preset-vue": "^2.0.2",
+    "babel-loader": "^8.0.6"
   }
 }
