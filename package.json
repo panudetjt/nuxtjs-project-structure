@@ -16,7 +16,8 @@
     "precommit": "npm run lint",
     "test": "ava",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "clean": "rm -rf .nuxt .storybook"
   },
   "dependencies": {
     "@nuxtjs/pwa": "^2.6.0",

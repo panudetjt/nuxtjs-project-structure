@@ -21,12 +21,13 @@ module.exports = {
   // add your custom rules here
   rules: {
     'nuxt/no-cjs-in-config': 'off',
+    'no-console': 'off',
     'prettier/prettier': ['error',
       {
         'trailingComma': 'es5',
         'semi': false,
         'singleQuote': true,
-      }
+      },
     ]
   }
 }
