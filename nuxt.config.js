@@ -24,7 +24,7 @@ module.exports = {
   /*
    ** Global CSS
    */
-  // css: ['tachyons/css/tachyons.min.css'],
+  css: [],
 
   /*
    ** Plugins to load before mounting the App

@@ -1,6 +1,8 @@
-# b
-
-> My grand Nuxt.js project
+# nuxtjs-project-structure
+Yet another practice to structure nuxt.js project
+<p align="center">
+  <img src="wiki/optimized.jpg">
+</p>
 
 ## Build Setup
 
@@ -49,3 +51,6 @@ DNS.1 = localhost
 ```
 
 then copy `nginx.crt` and `nginx.key` to `config/cert` 
+
+# Know issue
+ 1. highest score in best practice is 93 because request of `manifest.json` use http1.1 
