@@ -23,6 +23,8 @@ For detailed explanation on how things work, checkout [Nuxt.js docs](https://nux
 
 
 # Create valid certificate to localhost
+> **Warning**: Do not share any output file from this step to anyone And do not track them via version control tool.
+
 ```shell
 # Remember password when created, And add rootCA.key to browser
 $ openssl genrsa -des3 -out rootCA.key 2048
@@ -46,4 +48,4 @@ subjectAltName = @alt_names
 DNS.1 = localhost
 ```
 
-then copy `nginx.crt` and `nginx.key` to `config/cert`
+then copy `nginx.crt` and `nginx.key` to `config/cert` 
